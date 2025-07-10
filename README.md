@@ -126,30 +126,6 @@ nav ul li {
 // ...otros parciales
 ```
 
----
-
-## 🚀 Instalación y Uso
-
-1. Clona el repositorio:
-
-```bash
-git clone https://github.com/nnnn/telovendo.git  # Reemplaza 'nnnn' con tu usuario
-```
-
-2. Instala las dependencias:
-
-```bash
-npm install
-```
-
-3. Compila los archivos SASS:
-
-```bash
-npm run sass   # O el comando configurado en tu package.json
-```
-
----
-
 ## 🧱 Estructura HTML
 
 ```
