@@ -150,3 +150,15 @@ Este proyecto implementa correctamente los requerimientos solicitados, utilizand
 ---
 
 
+Se actualiza sitio según Requerimientos de actividad M3AE4-ABPRO4:
+
+• Incorporar sección de productos, la cual se deberá visualizar con una
+imagen y una descripción, incluyendo un mínimo de 12 productos
+distribuidos horizontalmente y considerando que se deben observar 4
+productos hacia abajo y un producto al lado del otro.
+• Implementar el menú fijo en el borde superior utilizando el 100% del
+ancho.
+• Incorpora en el footer agrega los íconos de redes sociales, los cuales
+deberán verse al lado derecho de la página.
+• Agregar un formulario de contacto, que contenga , nombre, apellido,
+comentario

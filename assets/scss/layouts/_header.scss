@@ -2,6 +2,20 @@
 @use '../abstracts/mixins';
 @use '../base/utilities';
 
+.menu {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+    background-color: #fff; /* Asegura fondo visible */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Sombra opcional */
+}
+
+.main {
+    margin-top: 300px;
+}
+
 .header__branding {
     align-items: center;
     display: flex;
