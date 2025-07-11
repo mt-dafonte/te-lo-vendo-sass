@@ -413,7 +413,8 @@ html, body {
 .category__image {
   width: 100%;
   height: 100%;
-  object-fit: cover;
+  -o-object-fit: cover;
+     object-fit: cover;
   transition: transform 0.5s ease;
 }
 
@@ -508,7 +509,8 @@ html, body {
 .card__image {
   width: 100%;
   height: 300px;
-  object-fit: cover;
+  -o-object-fit: cover;
+     object-fit: cover;
   transition: opacity 0.3s ease;
 }
 .card__content {
@@ -554,7 +556,6 @@ html, body {
   display: flex;
   flex-direction: column;
   width: 100%;
-  max-width: 300px;
 }
 .product-card:hover {
   transform: translateY(-5px);
@@ -563,7 +564,8 @@ html, body {
 .product-card__image {
   width: 100%;
   height: 200px;
-  object-fit: cover;
+  -o-object-fit: cover;
+     object-fit: cover;
   border-bottom: 1px solid rgba(0, 0, 0, 0.05);
 }
 .product-card__info {
@@ -605,21 +607,34 @@ html, body {
   background-color: #6bb7e9;
 }
 
+.category-section .product-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+  justify-items: center;
+  padding: 0 10px;
+}
+
+@media (max-width: 1024px) {
+  .category-section .product-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
 @media (max-width: 768px) {
   .category-section .product-grid {
     grid-template-columns: repeat(2, 1fr);
   }
 }
-@media (max-width: 1024px) {
+@media (max-width: 480px) {
   .category-section .product-grid {
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: 1fr;
+    gap: 15px;
   }
 }
-@media (min-width: 1025px) {
-  .category-section .product-grid {
-    grid-template-columns: repeat(4, 1fr);
-  }
+.product-card {
+  max-width: 100%;
 }
+
 /* Modal */
 .modal {
   display: none;
@@ -836,7 +851,8 @@ html, body {
 .team-member__image {
   width: 100%;
   height: 200px;
-  object-fit: cover;
+  -o-object-fit: cover;
+     object-fit: cover;
   border-radius: 8px;
   margin-bottom: 1rem;
 }
@@ -902,6 +918,4 @@ html, body {
   .form__input, .form__textarea {
     width: 80vw;
   }
-}
-
-/*# sourceMappingURL=main.css.map */
+}/*# sourceMappingURL=main.css.map */
