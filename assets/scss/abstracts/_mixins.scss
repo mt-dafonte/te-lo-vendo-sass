@@ -14,29 +14,4 @@
       @content;
     }
   }
-  @else if $breakpoint == large-desktop {
-    @media (min-width: 1025px) {
-      @content;
-    }
-  }
-  @else if $breakpoint == mobile-up {
-    @media (min-width: 481px) {
-      @content;
-    }
-  }
-  @else if $breakpoint == tablet-up {
-    @media (min-width: 769px) {
-      @content;
-    }
-  }
-  @else if $breakpoint == desktop-up {
-    @media (min-width: 1025px) {
-      @content;
-    }
-  }
-  @else if $breakpoint == large-desktop-up {
-    @media (min-width: 1441px) {
-      @content;
-    }
-  }
 }
