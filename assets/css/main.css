@@ -139,6 +139,20 @@ html, body {
   background-color: #2980b9;
 }
 
+.wsp__button {
+  position: fixed;
+  width: 3.5rem;
+  height: 3.5rem;
+  bottom: 5%;
+  right: 2%;
+  z-index: 3;
+  cursor: pointer;
+}
+.wsp__img {
+  width: 100%;
+  height: auto;
+}
+
 .footer {
   background-color: var(--primary-color);
   color: var(--white);
@@ -413,8 +427,7 @@ html, body {
 .category__image {
   width: 100%;
   height: 100%;
-  -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
   transition: transform 0.5s ease;
 }
 
@@ -509,8 +522,7 @@ html, body {
 .card__image {
   width: 100%;
   height: 300px;
-  -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
   transition: opacity 0.3s ease;
 }
 .card__content {
@@ -564,8 +576,7 @@ html, body {
 .product-card__image {
   width: 100%;
   height: 200px;
-  -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
   border-bottom: 1px solid rgba(0, 0, 0, 0.05);
 }
 .product-card__info {
@@ -851,8 +862,7 @@ html, body {
 .team-member__image {
   width: 100%;
   height: 200px;
-  -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
   border-radius: 8px;
   margin-bottom: 1rem;
 }
@@ -918,4 +928,6 @@ html, body {
   .form__input, .form__textarea {
     width: 80vw;
   }
-}/*# sourceMappingURL=main.css.map */
+}
+
+/*# sourceMappingURL=main.css.map */
